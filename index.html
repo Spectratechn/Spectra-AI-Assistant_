@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spectra AI Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Ask Spectra AI Everything</h1>
+            <p>Your personal assistant is here to help you with anything you need.</p>
+            <p class="mission">Our mission is to assist you with everything you need help with, making your life easier and more efficient.</p>
+            
+            <!-- Adding ElevenLabs ConvAI snippet -->
+            <elevenlabs-convai agent-id="r3buODeQpttnpzklZZNJ"></elevenlabs-convai>
+            <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+            
+            <button onclick="askSpectra()">Ask Now</button>
+        </div>
+    </div>
+    <script>
+        function askSpectra() {
+            alert("How can I assist you today?");
+        }
+    </script>
+</body>
+</html>
